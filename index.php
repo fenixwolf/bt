@@ -15,6 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+/*Estilos*/
 	#col_12{
 background: -moz-linear-gradient(top, rgba(102,153,0,1) 0%, rgba(114,170,121,1) 52%, rgba(125,185,232,0) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,153,0,1)), color-stop(52%,rgba(114,170,121,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
@@ -76,11 +77,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33b5e5', end
 	
 	#publicacion{
 		/*border-radius: 15px 15px 15px 15px;*/
-		
-		height: 25em;
-		
-	}	
 	
+    background:#fcfcfc url('images/module.png') repeat-x left bottom;
+    border:1px solid #ccc;
+    border-bottom:2px solid #bbb;
+    border-top:1px solid #ddd;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    height: 25em;
+} 
+	#logo_venta{
+		margin: 2em;
+	}
+	#fotos{
+		margin: 2em;
+		
+	}
+	#compromiso{
+		background-color: #679B12;
+	}
+/*Estilos*/	
 </style>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="//code.jquery.com/jquery.js"></script>
@@ -90,20 +107,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33b5e5', end
 </head>
 <header>
 	<div class="col-md-12" id="col_12" >
-	<div class="col-md-6">
-		<h1 id="logo">Ventas <b>Fenix Wolf</b></h1>
+	<div class="col-md-8" id="logo_venta">
+		<img src="https://dl.dropboxusercontent.com/u/22876636/ML/logo.png" alt="Logo_Ventas" class="img-responsive" >
 	</div></div>
 </header>
 <body>
 <div class="row">
-	<div class="col-md-12" id='publicacion'>
+
+<!Contenido de la publicación!>	
+	<div class="col-md-10 col-md-offset-1 col-xs-12" id='publicacion'>
+<div class="col-md-10 col-md-offset-1 col-xs-12	">
+	<h3>Samsung Galaxy Ace S5830</h3>
+</div> 
+		<div class="col-md-4 col-xs-5" id="fotos">
+			<img src="http://www.redcooneros.com/wp-content/uploads/2012/08/Samsung-Galaxy-S3-white-blue.jpeg" alt="" class="img-responsive">
+		</div>
+		<div class="col-md-5 col-md-offset-2 col-xs-5">
+			<h4><strong>ESPECIFICACIONES TÉCNICAS</strong></h4></br>
+			<iframe src="http://pastebin.com/embed_iframe.php?i=E7tZzggi" style="border:none;width:100%"></iframe>
+		</div>
 		
 	</div>
+<!Fin de la publicación!> 
+
+
 </div>
 
 
 <div class="row">
-
+	<div class="col-md-6 col-md-offset-5 col-xs-12" id="compromiso">
+			<h3><strong>Compromiso de Compra</strong></h3>
+			<p>Recuerde que su oferta es un <b>compromiso de compra</b>, por ello le recordamos lo siguiente:</p>
+			<ul class="list-group">
+				<li class="list-group-item">Tiene un periodo para concretar la compra de <strong class="text-danger">3 días</strong><span class="badge"><span class="glyphicon glyphicon-ok"></span></span></li>
+				<li class="list-group-item">Nuestro medio de comunicación por excelencia es vía Correo Electrónico<span class="badge"><span class="glyphicon glyphicon-ok"></span></span></li>
+				<li class="list-group-item">Somos tienda virtual, las entregas personales son a conveniencia de ambar partes<span class="badge"><span class="glyphicon glyphicon-ok"></span></span></li>
+				<li class="list-group-item">Tenga en cuenta realizar todas las preguntas antes de <strong class="text-danger">ofertar</strong><span class="badge"><span class="glyphicon glyphicon-ok"></span></span></li>
+				<li class="list-group-item">Lista de compromisos<span class="badge"><span class="glyphicon glyphicon-ok"></span></span></li>
+			</ul>
+		</div>
 	<div class="col-md-8 col-xs-6" id='bancos'>
 
 	<div class="col-md-4" id="logos_empresas">
