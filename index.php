@@ -3,7 +3,7 @@
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
-	<title>Prueba de Bootstrap Solo</title>
+	<title>Plantilla ML</title>
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 
@@ -143,7 +143,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33b5e5', end
 				<li class="list-group-item">Nuestro medio de comunicación por excelencia es vía Correo Electrónico<span class="badge"><span class="glyphicon glyphicon-ok"></span></span></li>
 				<li class="list-group-item">Somos tienda virtual, las entregas personales son a conveniencia de ambar partes<span class="badge"><span class="glyphicon glyphicon-ok"></span></span></li>
 				<li class="list-group-item">Tenga en cuenta realizar todas las preguntas antes de <strong class="text-danger">ofertar</strong><span class="badge"><span class="glyphicon glyphicon-ok"></span></span></li>
-				<li class="list-group-item">Lista de compromisos<span class="badge"><span class="glyphicon glyphicon-ok"></span></span></li>
+				
 			</ul>
 		</div>
 	<div class="col-md-8 col-xs-6" id='bancos'>
