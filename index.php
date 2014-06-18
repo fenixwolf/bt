@@ -4,15 +4,18 @@
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<title>Plantilla ML</title>
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 /*Estilos*/
@@ -78,7 +81,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33b5e5', end
 	#publicacion{
 		/*border-radius: 15px 15px 15px 15px;*/
 	
-    background:#fcfcfc url('images/module.png') repeat-x left bottom;
     border:1px solid #ccc;
     border-bottom:2px solid #bbb;
     border-top:1px solid #ddd;
@@ -99,11 +101,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33b5e5', end
 	}
 /*Estilos*/	
 </style>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>	
-
 </head>
 <header>
 	<div class="col-md-12" id="col_12" >
@@ -112,7 +109,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33b5e5', end
 	</div></div>
 </header>
 <body>
-<div class="row">
+<div class="container-fluid">
 
 <!Contenido de la publicación!>	
 	<div class="col-md-10 col-md-offset-1 col-xs-12" id='publicacion'>
@@ -134,7 +131,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33b5e5', end
 </div>
 
 
-<div class="row">
+<div class="container-fluid">
 	<div class="col-md-6 col-md-offset-5 col-xs-12" id="compromiso">
 			<h3><strong>Compromiso de Compra</strong></h3>
 			<p>Recuerde que su oferta es un <b>compromiso de compra</b>, por ello le recordamos lo siguiente:</p>
@@ -175,7 +172,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33b5e5', end
 </body>
 <footer>
 	<div class="col-md-8">
-		<strong >Fenix Wolf</strong> <code>Sistemas de Plantillas Originales</code>
+		<code>Plantillas Fenix Wolf</code>
 	</div>
 	
 </footer>
